@@ -1,0 +1,390 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.bg-image {
+    background-image: url('../image/bg.jpg');
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+    position: relative;
+}
+.overlay {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.navbar-container {
+    width: 85%;
+    margin: 0 auto;
+
+}
+.navbar {
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+    text-align: right;
+    
+}
+.navbar a {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+
+}
+.navbar a:hover {
+    background-color: green;
+    color: white    ;
+}
+.dropdown-container {
+    position: relative;
+    display: inline;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: white;
+    right: 0px;
+    top : 30px;
+    display: none;
+}
+.dropdown-content a {
+    display: block;
+    text-align: left;
+}
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 7rem;
+    padding-bottom: 20px;
+}
+.hr-style {
+    width: 70%;
+    border: 3px solid white;
+    margin: 0 auto;
+}
+.top-title {
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 20px;
+}
+.text {
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 15px;
+}
+.check-btn {
+    background-color: green;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    
+}
+.btn {
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+/* top nav sectrion ends here*/ 
+
+
+/* Category starts here */
+
+.category {
+    height: 750px;
+    width: 100%;
+    background-color: gray;
+}
+.cata-main-title{
+    text-align: center;
+    padding: 20px;
+}
+.para-category {
+    padding: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.category-container {
+    width: 1200px;
+    margin: 0 auto;
+    
+
+}
+.category-leftdiv {
+    width: 25%;
+    float: left;
+    margin-top: 70px;
+    padding: 20px;
+
+
+}
+.cata-image {
+    width: 100%;
+    border-radius: 50%;
+}
+.cata-title {
+    text-align: center;
+    margin-top: 20px;
+}
+.cata-text {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: justify;
+}
+.view-button {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.button-view {
+    background-color: green;
+    padding: 10px 30px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* End of the category section */
+
+
+/* Start the middle section  */
+
+.left-div {
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+    
+}
+.middle-title {
+    margin-top: 60px;
+    color: gray;
+}
+.main-title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+.class-h6 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.main-btton {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+.button-main {
+    margin-top: 40px;
+}
+.bake-image {
+    width: 100%;
+    margin-top: 50px;
+}
+.right-div {
+    width: 45%;
+    float: right;
+    box-sizing: border-box;
+}
+/*Ends here */
+
+/*Card section starts*/
+.card-section {
+    background-color: rgb(213, 214, 247);
+    
+}
+.card-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.card-left-div {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card {
+    width: 100%;
+    border: 2px solid green;
+    box-shadow: 3px 2px 4px black;
+    height: 400px;
+    
+}
+.chicken-image {
+    width: 100%;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: yellow;
+    text-transform: uppercase;
+}
+.card-price {
+    background-color: rgb(8, 0, 85);
+    color: white;
+    height: 50px;
+    
+}
+.card-text {
+    padding: 10px;
+    text-align: justify;
+}
+.card:hover {
+    box-shadow: 4px 4px 10px black;
+}
+/* card section end hree */
+
+
+/* Table design start here */
+
+.table-main {
+
+    background-color: white;
+
+}
+
+.table-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.table-left-div {
+    width: 30%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    
+}
+.basic {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+table,td {
+    width: 100%;
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem; 
+}
+.sign-btn {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.sign-btn:hover {
+    background-color: brown;
+}
+
+/* table sesctio ends here */
+
+
+/* footer section starts here */
+
+.footer-bg {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(7,1,39);
+}
+
+.footer-container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.about-left-div {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 25px;
+}
+.follow-middle-div {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    
+
+}
+.location-right-div {
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.about-title {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.about-text {
+    margin-top: 20px;
+}
+.follow-title {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.email {
+    width: 90%;
+    padding: 10px;
+}
+.location-title {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
